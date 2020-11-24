@@ -34,8 +34,17 @@ const main = (list) => {
     listResult.desc = list['schema:description'];
     listResult.nameLink = `[${listResult.name}](${listResult.link})`;
 
-    list['schema:author'] ? (listResult['author'] = list['schema:author']) : null;
-    listResult['author']['schema:memberOf'] ? (listResult['author'] = listResult['author']['schema:memberOf']['schema:name']) : listResult['author'] = listResult['schema:name'];
+    if (list['schema:author']) {
+        listResult['author'] = list['schema:author']
+        if (listResult['author']['schema:memberOf']) {
+            listResult['author'] = listResult['author']['schema:memberOf']['schema:name']
+        } else {
+            listResult['author'] = listResult['schema:name'];
+        }
+    } else {
+        console.log('Author not found')
+    }
+
 
     const DsData = {}
 
@@ -46,11 +55,10 @@ const main = (list) => {
             axios.get(`https://semantify.it/ds/${dsId}`)
                 .then(res => {
                     const ds = res.data;
-
                     writeDsFiles(dsId, ds, listResult['@id'])
                 })
                 .catch(err => {
-                    console.log(`Couldn't get DS from this Uri`)
+                    console.log(`Couldn't get DS from Uri`)
                 });
 
             DsData['DsName' + (index + 1)] = ds['schema:name'];
@@ -60,7 +68,7 @@ const main = (list) => {
             DsData['DsDownLink' + (index + 1)] = `[${dsId}](./${dsId}.json)`
         });
     } else {
-        console.log('DS doesnt exist');
+        console.log('DomainSpecifications not found!');
     }
 
 
