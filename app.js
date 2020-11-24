@@ -75,11 +75,7 @@ const writeListFile = (list, listResult) => {
         console.log(`Error is making directory named ${listResult['@id']}`)
     }
 // This is the content which will be written into .md file
-    let contentMdFile =
-        `List Name: ${listResult.name} \n 
-        List Name: [${listResult.name}](${listResult.uri}) \n 
-        List Description: ${listResult.desc} \n 
-        DS List: \n
+    let contentMdFile = `List Name: ${listResult.name}  \n List Name: [${listResult.name}](${listResult.uri})  \n List Description: ${listResult.desc}  \n DS List: \n
 | Name | URI  | Description  | Download  | 
 |-------|-----|-------|-------| \n `
 
