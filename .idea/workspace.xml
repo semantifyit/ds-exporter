@@ -39,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606223721237</updated>
-      <workItem from="1606223722300" duration="2555000" />
+      <workItem from="1606223722300" duration="12442000" />
     </task>
     <servers />
   </component>
@@ -47,6 +47,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2466" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606234153268">
+      <screen x="2048" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2466" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1976.1125/2048.0.1920.1080@2048.0.1920.1080" timestamp="1606234153268" />
     <state x="2591" y="286" width="824" height="515" key="IDE.errors.dialog" timestamp="1606224144244">
       <screen x="2048" y="0" width="1920" height="1080" />
     </state>
