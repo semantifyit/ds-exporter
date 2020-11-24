@@ -1,7 +1,7 @@
-# ds-exporter
+# DS-Exporter
 
 Simple command line too to export list information and domain specifications.
-## How to Install ?
+## Install
 1- `git clone https://github.com/semantifyit/ds-exporter.git` \
 2- `cd ds-exporter` \
 3- `npm install`
