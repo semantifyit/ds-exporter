@@ -76,7 +76,10 @@ const writeListFile = (list, listResult) => {
     }
 // This is the content which will be written into .md file
     let contentMdFile =
-        `List Name: ${listResult.name}\n List Name: [${listResult.name}](${listResult.link})\n List Description: ${listResult.desc}\n DS List:\n
+        `List Name: ${listResult.name} \n 
+        List Name: [${listResult.name}](${listResult.link}) \n 
+        List Description: ${listResult.desc} \n 
+        DS List: \n
 | Name | URI  | Description  | Download  | 
 |-------|-----|-------|-------| \n `
 
