@@ -1,5 +1,4 @@
-List Name: Alturos' DS List  
- List Name: [Alturos' DS List](https://semantify.it/list/J6sJg_D8V)  
+List Name: [Alturos' DS List](https://semantify.it/list/J6sJg_D8V)  
  List Description: List containing the CURRENT product voc.  
  DS List: 
 

@@ -1,7 +1,6 @@
-List Name: ds.sti2.org
- List Name: [ds.sti2.org](undefined)
- List Description: The List of DS that is being displayed on https://ds.sti2.org
- DS List:
+List Name: [ds.sti2.org](https://semantify.it/list/wS4r3c9hQ)  
+ List Description: The List of DS that is being displayed on https://ds.sti2.org  
+ DS List: 
 
 | Name | URI  | Description  | Download  | 
 |-------|-----|-------|-------| 
