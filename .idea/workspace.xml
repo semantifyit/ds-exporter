@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="251517f3-3afa-461b-bb65-4207733a3e1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/J6sJg_D8V/J6sJg_D8V.md" beforeDir="false" afterPath="$PROJECT_DIR$/J6sJg_D8V/J6sJg_D8V.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +23,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -35,11 +39,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606223721237</updated>
-      <workItem from="1606223722300" duration="317000" />
+      <workItem from="1606223722300" duration="1064000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2591" y="286" width="824" height="515" key="IDE.errors.dialog" timestamp="1606224144244">
+      <screen x="2048" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2591" y="286" width="824" height="515" key="IDE.errors.dialog/72.27.1976.1125/2048.0.1920.1080@2048.0.1920.1080" timestamp="1606224144244" />
   </component>
 </project>
