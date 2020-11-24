@@ -4,11 +4,7 @@
     <list default="true" id="251517f3-3afa-461b-bb65-4207733a3e1f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/J6sJg_D8V/FuUauKWRh.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/J6sJg_D8V/J6sJg_D8V.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/J6sJg_D8V/Y4C8EPYJk.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/J6sJg_D8V/ZTFFrC-W2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1606223721237</updated>
       <workItem from="1606223722300" duration="13908000" />
-      <workItem from="1606251611301" duration="1505000" />
+      <workItem from="1606251611301" duration="2631000" />
     </task>
     <servers />
   </component>
