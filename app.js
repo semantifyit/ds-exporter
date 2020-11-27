@@ -8,8 +8,8 @@ const readline = require('readline').createInterface({
 });
 
 //Ask user for URI in terminal
-readline.question('Please enter Uri: ', inputUri => {
-    console.log(`Hey let me check for  ${inputUri}!`);
+readline.question(`Please enter list's URI: `, inputUri => {
+    console.log(`Let me check for  ${inputUri}!`);
     getUriList(inputUri)
     readline.close();
 });
@@ -69,13 +69,13 @@ const getListData = (list) => {
 // write data into .md file about list and its ds after created directory named uriID
 const writeListFile = (list, listResult) => {
     try {
-        fs.mkdirSync(path.join(__dirname, listResult['@id']), {recursive: true});
-        console.log(`Directory named ${listResult['@id']} created!`);
+        fs.mkdirSync(path.join(__dirname, 'list-'+listResult['@id']), {recursive: true});
+        console.log(`Directory named list-${listResult['@id']} created!`);
     } catch {
         console.log(`Error is making directory named ${listResult['@id']}`)
     }
 // This is the content which will be written into .md file
-    let contentMdFile = `List Name: [${listResult.name}](${listResult.uri})  \n List Description: ${listResult.desc}  \n DS List: \n
+    let contentMdFile = `List Name: [${listResult.name}](${listResult.uri})  \n List Description: ${listResult.desc}  \n Domain Specification List: \n
 | Name | URI  | Description  | Download  | 
 |-------|-----|-------|-------| \n `
 
@@ -91,17 +91,17 @@ const writeListFile = (list, listResult) => {
     })
 
     try {
-        fs.writeFileSync(`./${listResult['@id']}/` + listResult['@id'] + '.md', contentMdFile);
-        console.log(`Results are written in ${listResult['@id'] + '.md'} file`);
+        fs.writeFileSync(`./list-${listResult['@id']}/` + 'README-'+listResult['@id'] + '.md', contentMdFile);
+        console.log(`Results are written in README-${listResult['@id'] + '.md'} file`);
     } catch {
-        console.log(`Failed to write into ${listResult['@id']}.md file`)
+        console.log(`Failed to write into README-${listResult['@id']}.md file`)
     }
 }
 // save all ds files inside same repo each named as dsId
 const writeDsFiles = (dsId, ds, dirName) => {
     try {
-        fs.writeFileSync(`./${dirName}/` + dsId + '.json', JSON.stringify(ds, null, 4))
-        console.log(`DS file named ${dsId + '.json'} created in directory ${dirName}`);
+        fs.writeFileSync(`./list-${dirName}/` + 'ds-'+dsId + '.json', JSON.stringify(ds, null, 4))
+        console.log(`DS file named ds-${dsId + '.json'} created in directory list-${dirName}`);
     } catch {
         console.log('Error in writing domain specification')
     }
