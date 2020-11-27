@@ -83,7 +83,7 @@ const writeListFile = (list, listResult) => {
         let obj = {}
         const dsId = ds['@id'].substring(`${ds['@id'].lastIndexOf('/') + 1}`);
         obj['Name'] = `[${ds['schema:name']}](${ds['@id']})`;
-        obj['URI'] = dsId;
+        obj['URI'] = ds['@id'];
         obj['Description'] = ds['schema:description'];
         obj['Download'] = `[${dsId}](./${dsId}.json)`;
 
