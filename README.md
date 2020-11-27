@@ -13,8 +13,8 @@ Simple command line too to export list information and domain specifications.
 ## Then
 
 1- After you enter the uri you will see couple of messages in terminal. \
-2- Once it finishes you will find another directory named as uriID of your input
+2- Once it finishes you will find another directory named as list-uriID of your input
 - for example if you enter uri `https://semantify.it/list/J6sJg_D8V`
-- you will find new directory named `J6sJg_D8V`
+- you will find new directory named `list-J6sJg_D8V`
 
-3- You can find `uriId.md` file containing information and links to the domain specifications.
+3- You can find `README-uriId.md` file containing information and links to the domain specifications.
